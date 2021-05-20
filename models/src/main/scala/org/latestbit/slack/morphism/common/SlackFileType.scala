@@ -27,8 +27,9 @@ case class SlackFileType( value: String ) extends AnyVal
  * Look complete list at https://api.slack.com/types/file#file_types
  */
 object SlackFileType {
-  final val Auto = SlackFileType( "auto" )
-  final val Text = SlackFileType( "text" )
-  final val Pdf  = SlackFileType( "pdf" )
-  final val Zip  = SlackFileType( "zip" )
+  final val Auto  = SlackFileType( "auto" )
+  final val Text  = SlackFileType( "text" )
+  final val Pdf   = SlackFileType( "pdf" )
+  final val Zip   = SlackFileType( "zip" )
+  final val Scala = SlackFileType( "scala" )
 }
